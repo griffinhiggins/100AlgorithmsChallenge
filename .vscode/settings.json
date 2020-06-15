@@ -1,3 +1,4 @@
 {
-    "wolf.disableHotModeWarning": true
+    "wolf.disableHotModeWarning": true,
+    "python.formatting.provider": "yapf"
 }

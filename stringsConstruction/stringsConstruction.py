@@ -1,16 +1,21 @@
 def stringsConstruction(a,b):
-    count = 0
-    for i in range(len(a)):
-        print(a[i])
-        if len(b) == 0:
-            break
-        for j in range(len(b)):
-            if a[i] == b[j]:
-                b[j] = ''
-                i += 1
-            if i == len(a):
-                count += 1
-                i = 0
+    a = setStrCount(a)
+    b = setStrCount(b)
+    if not len(a) == len(b):
+        return 0
+    else:
+        count = float('inf')
+        for i in a:
+            f = math.floor(b[i]/a[i])
+            if f < count:
+                count = f
     return count
 
-stringsConstruction('abc','abccba')
+def setStrCount(s):
+    d = {}
+    s_cp = "".join(set(s))
+    for i in range(len(s_cp)):
+        d[s_cp[i]] = s.count(s_cp[i])
+    return d
+
+print(stringsConstruction('abc','abccba'))

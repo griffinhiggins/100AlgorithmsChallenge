@@ -1,6 +1,7 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/code-arcade/intro-gates/bszFiQAog96G9CXKg)
+
 ---
 
 Your friend advised you to see a new performance in the most popular theater in the city. He knows a lot about art and his advice is usually good, but not this time: the performance turned out to be awfully dull. It's so bad you want to sneak out, which is quite simple, especially since the exit is located right behind your row to the left. All you need to do is climb over your seat and make your way to the exit.
@@ -24,7 +25,7 @@ Here is what the theater looks like:
 
 An integer, the number of theater's columns.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 1 ≤ nCols ≤ 1000.
 
@@ -32,7 +33,7 @@ An integer, the number of theater's columns.
 
 An integer, the number of theater's rows.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 1 ≤ nRows ≤ 1000.
 
@@ -40,7 +41,7 @@ An integer, the number of theater's rows.
 
 An integer, the row number of your own seat (1-based)..
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 1 ≤ row ≤ nRows.
 

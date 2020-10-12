@@ -1,10 +1,12 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/intro/level-5/ZMR5n7vJbexnLrgaM)
+
 ---
+
 You find yourself in Bananaland trying to buy a banana. You are super rich so you have an unlimited supply of banana-coins, but you are trying to use as few coins as possible.
 
-The coin values available in Bananaland are stored in a sorted array coins. coins[0] = 1, and for each i (0 &lt; i &lt; coins.length) coins[i] is divisible by coins[i - 1]. Find the minimal number of banana-coins you'll have to spend to buy a banana given the banana's price.
+The coin values available in Bananaland are stored in a sorted array coins. coins[0] = 1, and for each i (0 < i < coins.length) coins[i] is divisible by coins[i - 1]. Find the minimal number of banana-coins you'll have to spend to buy a banana given the banana's price.
 
 **Example**
 
@@ -20,7 +22,7 @@ You have to use 10 twice, and 2 four times.
 
 The coin values available in Bananaland.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 1 ≤ coins.length ≤ 5,
 
@@ -30,10 +32,10 @@ The coin values available in Bananaland.
 
 A positive integer representing the price of the banana.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 8 ≤ price ≤ 250.
 
--   **[output] integer**
+- **[output] integer**
 
 The minimal number of coins you can use to buy the banana.
